@@ -1,0 +1,14 @@
+@import './base.css';
+
+.nav-link {
+  color: white;
+}
+
+.form-button {
+  font-weight: bold;
+  background-color: #C4C4C4;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
