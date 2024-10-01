@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, useRouter } from 'vue-router'
+import { createRouter, createWebHashHistory, useRouter } from 'vue-router'
 import type { Router } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '@/views/AboutView.vue'
@@ -11,7 +11,7 @@ interface CustomRouter extends Router {
 }
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',

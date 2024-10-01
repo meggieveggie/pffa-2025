@@ -12,7 +12,7 @@ const pffaLogo = new URL('../assets/pffa_logo.png', import.meta.url).href
         <b-img :src="pffaLogo"></b-img>
         <b-col lg="12" class="mb-3">
           <BButton 
-          href="open_call"
+          href="#/open_call"
           variant="light"
           class="form-button w-auto not-bold move-right"
           ><span class="linked">Submit</span> your film, performance or workshop
@@ -36,7 +36,7 @@ const pffaLogo = new URL('../assets/pffa_logo.png', import.meta.url).href
 
         <b-col lg="12" class="mb-3">
           <BButton 
-          href="sponsors" 
+          href="#/sponsors" 
           variant="light"
           class="form-button w-auto not-bold move-right"
           ><span class="linked">Sponsorship</span> info</BButton>
