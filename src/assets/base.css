@@ -3,6 +3,7 @@
   /* semantic color variables for this project */
   :root {
     --color-background: #C1D3A6;;
+
   }
   
   body {
@@ -10,6 +11,7 @@
     font-family: 'DM Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    --bs-navbar-active-color: #FFF;
   }
 
   .titles {

@@ -17,21 +17,21 @@ const logo = new URL('../assets/main_image.png', import.meta.url).href;
         <BButton
           variant="light"
           class="form-button"
-          href="https://docs.google.com/forms/d/1fR34B983tSXPVgmhvT3jIbwCcHbP17_sDnjmFfm0FcI/edit"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf3yYOHiVe4kFhhUHyWiIJRfs2--W9lUbpxJHIU8QnmWX72cQ/viewform?usp=sf_link"
         >Film</BButton>
         </b-col>
         <b-col lg="3" class="mb-2">
         <BButton
           variant="light"
           class="form-button"
-          href="https://docs.google.com/forms/d/1BCMByDvIkGJPnmnkkDKjLZTyYa1SuubFjkUcrPlzHE4/edit"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeRhQgSKvIKTDRwYPsE9y2ACA7v5Ex7IZd_b0Da-jXaroVQTQ/viewform?usp=sf_link"
         >Workshop</BButton>
         </b-col>
         <b-col lg="3" class="mb-2">
         <BButton
           variant="light"
           class="form-button"
-          href="https://docs.google.com/forms/d/13YX43COCH4L_9_sUaBmPHyks10PYyPpX-nHdu5X8zSo/edit"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSe1dXYJdvcN-QWpKUvPJdtFGc6LX2PsFXY0TSHnn5hmZ5R7kA/viewform?usp=sf_link"
         >Performance</BButton>
         </b-col>  
       </b-row>
@@ -46,15 +46,15 @@ const logo = new URL('../assets/main_image.png', import.meta.url).href;
         </div>
         
         <div class="mb-2 d-flex align-items-center">
-          <p class="text"> <a href="https://drive.google.com/drive/folders/1WWTql6CfdPBhqwdHFmMuwzk7J-gEsHnk" class="link">Film</a> application form</p>
+          <p class="text"> <a href="https://drive.google.com/file/d/1a7sliW82k2ddvi7wfUf-p1yYhblkkQhF/view?usp=sharing" class="link">Film</a> application form</p>
         </div>
         
         <div class="mb-2 d-flex align-items-center">
-          <p class="text"><a href="https://drive.google.com/drive/folders/1WWTql6CfdPBhqwdHFmMuwzk7J-gEsHnk" class="link">Workshop proposal</a> application form</p>
+          <p class="text"><a href="https://drive.google.com/file/d/1WTnMsICp3shdHBRGsLmTk_9j5H6-b8a_/view?usp=sharing" class="link">Workshop proposal</a> application form</p>
         </div>
         
         <div class="mb-2 d-flex align-items-center">
-          <p class="text"><a href="https://drive.google.com/drive/folders/1WWTql6CfdPBhqwdHFmMuwzk7J-gEsHnk" class="link">Performance proposal</a> application form</p>
+          <p class="text"><a href="https://drive.google.com/file/d/1cp13eGZq8qMQosLt0ZyofRSy-bNJzpYf/view?usp=sharing" class="link">Performance proposal</a> application form</p>
         </div>
       </b-row>
 
