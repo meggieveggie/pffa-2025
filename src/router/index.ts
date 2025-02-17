@@ -5,6 +5,15 @@ import AboutView from '@/views/AboutView.vue'
 import OpenCallView from '@/views/OpenCallView.vue'
 import SponsorView from '@/views/SponsorView.vue'
 
+import ProgramOneView from '@/views/ProgramOneView.vue'
+import ProgramTwoView from '@/views/ProgramTwoView.vue'
+import ProgramThreeView from '@/views/ProgramThreeView.vue'
+import ProgramFourView from '@/views/ProgramFourView.vue'
+import ProgramFiveView from '@/views/ProgramFiveView.vue'
+
+import InfoView from '@/views/InfoView.vue'
+
+
 // Extend the Router interface to include the isActive method
 interface CustomRouter extends Router {
   isActive: (path: string) => boolean;
@@ -32,8 +41,46 @@ const router = createRouter({
       path: '/sponsors',
       name: 'sponsors',
       component: SponsorView
+    },
+    {
+      path: '/thursday',
+      name: 'thursday',
+      component: ProgramOneView
+    },
+    {
+      path: '/I&C',
+      name: 'I&C Day',
+      component: ProgramTwoView
+    },
+    {
+      path: '/friday',
+      name: 'friday',
+      component: ProgramThreeView
+    },
+    {
+      path: '/saturday',
+      name: 'saturday',
+      component: ProgramFourView
+    },
+    {
+      path: '/sunday',
+      name: 'sunday',
+      component: ProgramFiveView
+    },
+    {
+      path: '/info',
+      name: 'info',
+      component: InfoView
     }
-  ]
+    
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition; // Restore scroll position (e.g., back/forward navigation)
+    } else {
+      return { top: 0 }; // Scroll to the top for new navigations
+    }
+  },
 }) as CustomRouter;
 
 router.isActive = (path: string) => {

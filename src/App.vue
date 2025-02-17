@@ -7,7 +7,7 @@ import SiteFooter from './components/SiteFooter.vue';
 <template>
   <div class="page-container">
     <SiteNavbar />
-    <main app>
+    <main app class="pffa_bg">
       <RouterView />
     </main>
     <SiteFooter />
@@ -28,6 +28,9 @@ main {
     flex-grow: 1;
 }
 
+.pffa_bg {
+  background-color: #C1D3A6;
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

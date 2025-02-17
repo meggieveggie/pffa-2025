@@ -1,72 +1,181 @@
 <script setup lang="ts">
 import { BContainer, BRow, BCol, BImg } from 'bootstrap-vue-3';
-const logo = new URL('../assets/main_image.png', import.meta.url).href;
-const table = new URL('../assets/table.png', import.meta.url).href;
+
+// Asset URLs
+const leftImageUrl = new URL('../assets/program.png', import.meta.url).href;
+const rightImageUrl = new URL('../assets/rightimage.png', import.meta.url).href;
+const f2f = new URL('../assets/f2f.png', import.meta.url).href;
+const newside = new URL('../assets/newside.png', import.meta.url).href;
+
+const latexpeach = new URL('../assets/LatexPeach.png', import.meta.url).href;
+const irides = new URL('../assets/irides.png', import.meta.url).href;
+const imageAngel = new URL('../assets/ImageAngel.png', import.meta.url).href;
+const lover = new URL('../assets/lover.png', import.meta.url).href;
+const hairtopher = new URL('../assets/hairtopher.png', import.meta.url).href;
+const condomerie = new URL('../assets/condomerie.png', import.meta.url).href;
+
+const cultuurfonds = new URL('../assets/cultuurfonds.png', import.meta.url).href;
+const afk = new URL('../assets/afk.png', import.meta.url).href;
 </script>
 
 <template>
-  <b-container fluid>
-    <b-row class="mt-5">
-      <b-col xs="12" lg="5" class="mt-4">
-        <BImg fluid :src="logo" class="main-image" />
-      </b-col>
+  <b-container fluid class="program-color">
+    <b-row class="mt-5 justify-content-center">
+      <!-- Left Image -->
 
-      <b-col xs="12" lg="6" class="right-grid d-flex flex-column mt-4">
-        <b-row class="top-block">
-          <div class="titles mb-4">Sponsor</div>
-        </b-row>
-        <b-row class="block mb-3">
-          <p class="text">
-            Porn Film Festival Amsterdam (PFFA) is an annual celebration and critical space centred on sexuality, pleasure, city issues, and politics through the art of adult filmmaking.
-          </p>
-        </b-row>
-        <b-row class="block mb-3">
-          <p class="text">
-            For 2025, we present an even more engaging and inclusive event, continuing our mission to provide a platform for storytelling, discussion, and of course, sexiness.
-          </p>
-        </b-row>
-        <b-row>
-          <b-col lg="4">
-            <p class="text mb-4">
-              To support the festival and bring brands, organisations and communities along the journey with us, we are opening up sponsorship opportunities.
-            </p>
-            <b-row class="move-right">
-              <BButton href="https://docs.google.com/forms/d/e/1FAIpQLSf8sVpxgo8E7vKIHkthpJ3qS2ntPPvLTZrfqcXUu1TtyYkF7g/viewform" class="form-button mb-2 w-auto">Sponsorship application</BButton>
-            </b-row>
-            <b-row class="move-right mb-2">
-                <BButton href="https://docs.google.com/document/d/12WFFmQFtAnUK9YQsD76MwQc2Z8N96FeChWMVQHWDwgY/edit" class="form-button w-auto">More information</BButton>
-            </b-row>
-          </b-col>
-          <b-col lg="8" class="mb-2">
-            <BImg fluid :src="table" class="side-image" />
-          </b-col>
-        </b-row>
+      <!-- Sponsor Text -->
+      <b-col xs="12" lg="3" class="mt-5 d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          <span class="sponsor-text">The incredible <span class="underline">sponsors</span> that help bring the festival to life</span>
+        </div>
       </b-col>
     </b-row>
+
+    <b-row class="justify-content-center">
+      <b-col lg="4" class="mb-4 d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          We want to extend extra thanks to these companies. This festival is very new and sponsorship required a leap of faith and trust - which each one of them dove into.
+        </div>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center">
+      <b-col lg="4" class="mb-4 d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          Why would they do that? Because these companies all have one thing in common - <span style="font-weight: bold;">a commitment to their communities</span> and their sponsorships are further proof of that.
+        </div>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center">
+      <b-col lg="4" class="mb-4 d-flex justify-content-center align-items-center">
+        <div class="text-center">
+          Thank you, from the bottom of our hearts
+        </div>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center">
+      <b-col lg="6" class="mb-4">
+        <div class="text-center black-box mb-5">
+          TASTE SPONSOR (TITLE)
+        </div>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center">
+    <b-col lg="10" class="mb-4">
+      <a target="_blank" rel="noopener noreferrer" href="https://f2f.com/">
+        <img :src="f2f" class="img-fluid" />
+      </a>
+    </b-col>
+  </b-row>
+
+  <b-row class="justify-content-center">
+      <b-col lg="6" class="d-flex justify-content-center align-items-center">
+        <div class="text-center black-box mb-5">
+          TOUCH SPONSORS
+        </div>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center ">
+    <b-col lg="8" class="mb-4 d-flex justify-content-center align-items-center">
+      <a target="_blank" rel="noopener noreferrer" href="https://mynewside.com/">
+        <img :src="newside" class="img-fluid" />
+      </a>
+    </b-col>
+  </b-row>
+
+    <b-row class="justify-content-center">
+      <b-col lg="6" class="mt-5 d-flex justify-content-center align-items-center">
+        <div class="text-center black-box mb-5">
+          TEASE SPONSORS
+        </div>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center">
+      <b-col lg="12" class="mb-4 d-flex justify-content-center align-items-center">
+        <a target="_blank" rel="noopener noreferrer" href="https://latexpeach.com/">
+          <img :src="latexpeach" class="img-fluid image-spacing" />
+        </a>
+
+        <a target="_blank" rel="noopener noreferrer" href="https://condomerie.com/nl/?gad_source=1&gclid=Cj0KCQiAkJO8BhCGARIsAMkswygImYZa8HZga2gjoYu1Zea4cRmDXcnGA1TGbpY5oGjNZB0veDMlzGoaAnDYEALw_wcB">
+          <img :src="condomerie" class="img-fluid image-spacing" />
+        </a>
+      </b-col>
+      <b-col lg="10" class="mb-4 d-flex justify-content-center align-items-center">
+        <a target="_blank" rel="noopener noreferrer" href="https://imageangel.co.uk/">
+          <img :src="imageAngel" class="img-fluid image-spacing" />
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.lovermanagement.com/">
+          <img :src="lover" class="img-fluid image-spacing" />
+        </a>
+      </b-col>
+      <b-col lg="11" class="mb-4 d-flex justify-content-center align-items-center">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.hairbytopher.com/">
+          <img :src="hairtopher" class="img-fluid image-spacing" />
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.iridescentamsterdam.com/">
+          <img :src="irides" class="img-fluid image-spacing" />
+        </a>
+      </b-col>
+</b-row>
+
+    <b-row class="justify-content-center">
+      <b-col lg="6" class="mt-5 d-flex justify-content-center align-items-center">
+        <div class="text-center black-box mb-5">
+          FUNDS
+        </div>
+      </b-col>
+    </b-row>
+
+    <b-row class="justify-content-center ">
+    <b-col lg="8" class="mb-4 d-flex justify-content-center align-items-center">
+      <a>
+        <img :src="cultuurfonds" class="img-fluid" />
+      </a>
+      <a>
+        <img :src="afk" class="img-fluid" />
+      </a>
+    </b-col>
+  </b-row>
+
   </b-container>
 </template>
 
 <style scoped>
-.main-image {
-  width: 150%; /* Adjust width as needed */
-  height: auto; /* Adjust height as needed */
+.underline {
+  text-decoration: underline;
+}
+
+.program-color {
+  background: #929ABA;
+}
+
+
+.black-box {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 100%; /* Narrower width */
+  height: 50%; /* Taller height */
+}
+
+.sponsor-text {
+  font-size: 2.0em;
+  font-weight: bold;
+}
+
+.img-small {
+  max-width: 60%; /* Make images responsive */
+  height: auto;
 }
 
 @media (max-width: 576px) {
-  .titles {
-    font-size: 1.5em; /* Smaller font size for mobile */
-  }
-
-  .block {
-    font-size: 1.1em; /* Reduce block font size for small screens */
-  }
-
-  .text {
-    font-size: 0.9em; /* Smaller font size for better readability */
-  }
-
-  .move-right {
-    margin-left: 5px; /* Adjust the value as needed */
+  .sponsor-text {
+    font-size: 1.2em; /* Reduce text size on smaller screens */
   }
 }
 </style>
