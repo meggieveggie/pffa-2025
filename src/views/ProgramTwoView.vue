@@ -7,7 +7,7 @@ const agenda = [
     "image": new URL('../assets/ic1.png', import.meta.url).href,
     "title": "INDUSTRY & COMMUNITY DAY ",
     "time": "13:00",
-    "place": "Filmhuis CAVIA",
+    "place": "tilla tec",
     "text": `
         We believe that film festivals like ours are key to the development of a vibrant and diverse pornography scene. And so, for our second edition, we welcome our community to meet and talk around topics that ground our practices. 
     <br/>
@@ -59,15 +59,14 @@ const agenda = [
       <b-col xs="12" lg="6" class="mx-4">
         <h4 style="font-weight: bold;">Agenda:</h4>
         <br/>
-        <div class="mb-1">13:00 - Doors open and welcome drink</div>
-        <div class="mb-1">13:15 - Start time</div>
-        <div class="mb-1">13:50 - <span style="font-weight: bold;">Panel 1</span> Beyond After Care: A panel discussion on the importance of care throughout kink experiences</div>
-        <div class="mb-1">14:35 - Break & performance: The guilt after orgasm. Blindfolded voyeurism into people’s lives.</div>
-        <div class="mb-1">14:40 - <span style="font-weight: bold;">Panel 2</span> Amsterdam </div>
-        <div class="mb-1">14:35 - Break</div>
-        <div class="mb-1">15:50 - <span style="font-weight: bold;">Panel 3</span> The Digital Frontier of Desire</div>
-        <div class="mb-1">16:50 - Performance: a shibari showcase</div>
-        <div class="mb-1">17:45 - Speed date until 19:00</div>
+        <div class="mb-1">13:00 - 13:30 - Welcome drink & intro</div>
+        <div class="mb-1">13:30 - 14:15 - <span style="font-weight: bold;">Panel 1</span> - Beyond After Care: A panel discussion on the importance of care throughout kink experiences</div>
+        <div class="mb-1">14:15 - 14:30 - Break</div>
+        <div class="mb-1">14:30 - 15:15 - <span style="font-weight: bold;">Panel 2</span> - The Digital Frontier of Desire</div>
+        <div class="mb-1">15:15 - 15:30 - Break and performance by  <span style="font-weight: bold;">Déandrah - The Guilt After Orgasm. Blindfolded Voyeurism Into People’s Lives</span></div>
+        <div class="mb-1">15:30 - 16:15 - <span style="font-weight: bold;">Panel 3</span> - Homegrown: Outlook on Dutch Postporn</div>
+        <div class="mb-1">16:30 - 17:00 - Performance: a shibari showcase</div>
+        <div class="mb-1">17:15 - 18:15 - Speed date</div>
       </b-col>
     </b-row>
 
@@ -97,7 +96,7 @@ const agenda = [
         <h6 style="font-weight: bold;">Panelists:</h6>
         <div><span style="font-weight: bold;">Countess Diamond </span> An award-winning, UK-based dominatrix with focuses on financial domination and humiliation </div>
         <div><span style="font-weight: bold;">Papilicious </span> A kinbaku practitioner and studio founder based in Amsterdam  </div>
-        <div><span style="font-weight: bold;">Bear </span> Amsterdam-based sex worker, kink practitioner and organiser for Porn Film Festival Amsterdam</div>
+        <div><span style="font-weight: bold;">Bear </span> Activist, educator, performer, kink practitioner and organiser for Porn Film Festival Amsterdam</div>
         <div><span style="font-weight: bold;">Chelsea Poe </span> Dutch/American professional BDSM submissive and highly-awarded pornographer </div>
       </b-col>
     </b-row>
@@ -115,8 +114,8 @@ const agenda = [
         </p>
         <h6 style="font-weight: bold;">Panelists:</h6>
         <div><span style="font-weight: bold;">Christina Castalia</span> International, award-winning curvy cam model, creator and thought leader in erotica.</div>
-        <div><span style="font-weight: bold;">Hanne Stegeman</span> Author of “Behind the webcam". Contested visibility in online sex work in the Netherlands, Romania and the United Kingdom” PhD Cum-Laude thesis University of Amsterdam.</div>
-        <div><span style="font-weight: bold;">Rébecca S Franco</span> Researcher of payment ecosystem and the regulation of adult webcamming and subscription-based fan platforms. </div>
+        <div><span style="font-weight: bold;">Hanne Stegeman</span> Author of “Behind the Webcam. Contested Visibility in Online Sex Work in the Netherlands, Romania and the United Kingdom”</div>
+        <div><span style="font-weight: bold;">Rébecca S Franco</span>  researcher on the regulation of online sex work and advocate for workers’ rights.</div>
         <div><span style="font-weight: bold;">Thany Sanches</span> Brazilian multimedia artist whose work is deeply influenced by her experiences as a cam model and her journey with partial blindness</div>
       </b-col>
     </b-row>
@@ -124,7 +123,8 @@ const agenda = [
     <b-row class="mx-5 px-5">
       <b-col xs="12" lg="12" class="mx-4">
         <br/>
-        <h6> • <span style="font-weight: bold; text-decoration: underline;"> Panel 3 Amsterdam</span></h6>
+        <h6> • <span style="font-weight: bold; text-decoration: underline;"> Panel 3 - Homegrown: Outlook on Dutch Postporn</span></h6>
+        <h6 style="font-weight: bold;">Hosted by Bear Silver</h6>
         <p>
           Join us for a transparent conversation with Amsterdam-based filmmakers exploring the evolving landscape of post-pornographic cinema in the Netherlands.
         </p>

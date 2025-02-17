@@ -43,6 +43,8 @@ const filmmaker = ref<HTMLElement | null>(null);
         <BButton
           style="background-color: #2C2C2C; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 8px; text-decoration: underline;"
           class="form-button"
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://docs.google.com/document/d/1H-rFBJYy0RLSHHp4uK9TRXUbPbGeeEriX5n-X_j8ats/edit?tab=t.0"
         >Accessibility statement</BButton>
         </b-col>
@@ -50,6 +52,8 @@ const filmmaker = ref<HTMLElement | null>(null);
         <BButton
           style="background-color: #2C2C2C; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 8px; text-decoration: underline;"
           class="form-button"
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://docs.google.com/forms/d/e/1FAIpQLSeGE2MD9_tDuimzADGG4CcCYLLewxnfk08IGOU1JBoB1raokQ/viewform"
         >Accessibility request form</BButton>
         </b-col>
@@ -68,13 +72,29 @@ const filmmaker = ref<HTMLElement | null>(null);
     <div class="text mt-2">Tickets: 7 euros</div>
     <div class="text">Cineville card accepted</div>
     <div class="text">Workshops: 15 euros</div>
-    <div class="text">Presale for screenings and workshops: https://www.amsterdamalternative.nl</div>
-    <div class="text mt-4">Each day there will be a limited number of tickets available at the bar of the two cinemas. You can get them on the day and location of the screening itself. Cineville cards are accepted at both locations.</div>
+    <div class="text">
+  Presale for screenings and workshops: 
+  <a href="https://www.amsterdamalternative.nl" target="_blank" rel="noopener noreferrer">
+    https://www.amsterdamalternative.nl
+  </a>
+</div>
+    <div class="text mt-4">Each day there will be a limited number of tickets available at the cinemas. You can get them on the day and location of the screening itself. Cineville cards are accepted.</div>
     <div ref="venue"></div>
-    <div class="text mt-5"><span class="bold underline" id="venue-info">Venue info</span> - Venue measurements and information for accessibility</div>
+    <div class="text mt-5">
+      <a 
+        href="https://docs.google.com/document/d/1_D5hEGY3FLelMLJt6GZhYgBp8qMMuhM5adr5KXeBzcg/edit?tab=t.0#heading=h.8fsdd0or3jdd" 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        class="bold underline" 
+        id="venue-info"
+      >
+        Venue info
+      </a> 
+      - Venue measurements and information for accessibility
+    </div>
     <br />
     <div class="text mt-2 bold">FILMHUIS CAVIA</div>
-    <div class="text">Van Hallstraat 52-I 1051 HH Amsterdam</div>
+    <div class="text">Van Hallstraat 52-I, 1051 HH Amsterdam</div>
     <div class="text mt-2">Public transport:</div>
     <div class="text">Tram 3 · Van Hallstraat (last stop)</div>
     <div class="text">Bus 21 · Van Beuningenplein</div>
@@ -95,7 +115,7 @@ const filmmaker = ref<HTMLElement | null>(null);
     <div class="text">Metro 52 · Rokin + 6 min walk</div>
     <br />
     <div class="text mt-2 bold">PROSTITUTION INFORMATION CENTER (PIC)</div>
-    <div class="text">Enge Kerksteeg 3 1012 GV Amsterdam</div>
+    <div class="text">Enge Kerksteeg 3, 1012 GV Amsterdam</div>
     <div class="text mt-2">Public transport:</div>
     <div class="text">Tram 4 or 14 · Dam</div>
     <div class="text">Tram 2, 12, 13, 17 · Nieuwezijds Kolk + 5 min walk</div>
@@ -103,13 +123,14 @@ const filmmaker = ref<HTMLElement | null>(null);
     <div class="text mt-2 bold">TILLA TEC</div>
     <div class="text">Doctor Jan van Breemenstraat 1, 1056 AB Amsterdam</div>
     <div class="text mt-2">Public transport:</div>
-    <div class="text">Routes from these stops are wheelchair accessible from the stop to the entrance. A volunteer is able to push you when you arrive if you need it. If you are on crutches or otherwise mobility impaired, please let us know in this <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGE2MD9_tDuimzADGG4CcCYLLewxnfk08IGOU1JBoB1raokQ/viewform"><span>form</span></a> so that we can meet you with the venue wheelchair. </div>
+    <div class="text">Routes from these stops are wheelchair accessible from the stop to the entrance. A volunteer is able to push you when you arrive if you need it. If you are on crutches or otherwise mobility impaired, please let us know in this <a           target="_blank"
+      rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeGE2MD9_tDuimzADGG4CcCYLLewxnfk08IGOU1JBoB1raokQ/viewform"><span>form</span></a> so that we can meet you with the venue wheelchair. </div>
     <div class="text">Tram 13 · Jan van Galenstraat + 300m wheelchair roll / walk </div>
     <div class="text">Bus 18 · Adm. Helfrichstraat + 270m wheelchair roll / walk</div>
     <br />
     <div ref="warning"></div>
     <div class="titles1" id="trigger-warnings">Trigger warnings</div>
-    <div class="text mt-2">While one person might be turned on by dolls and clowns, another might not be able to stand it. The same goes for guns, needles, dentists, vomiting and everything in between. </div>
+    <div class="text mt-2">While one person might be turned on by dolls and clowns, another might not be able to stand it. The same goes for guns, needles, dentists, vomiting and everything in between.</div>
     <div class="text mt-2">So this is a warning as well as an invitation. Be aware that the films tackle many different themes and push many boundaries. We use post-porn as a platform to tell stories, express desire, protest and change our frames of reference. Sometimes it’s hot. Sometimes it’s uncomfortable.</div>
     <div class="text mt-2">Before each block begins, the programmer will give an introduction that should give you an idea of what to expect. Beyond that, if you are attending a block and have any specific triggers you’d like to check in on, please message us on Instagram. </div>
     <div class="text mt-2">Also feel free to contact the programmers during the day of the screening. You can ask at the bars of Cavia, TILLA TEC and the De Richel for them.</div>
@@ -119,7 +140,8 @@ const filmmaker = ref<HTMLElement | null>(null);
     <div class="mb-2 d-flex align-items-center">
           <p class="text">
             Want to connect with a filmmaker or program their film? Check out the
-            <a href="https://docs.google.com/document/d/1WYzKIIkl-Go5vbRsYPgXUMpS8fWHKOQzNGCV8wle89o/edit?tab=t.0" class="link">filmmaker contact form. </a></p>
+            <a target="_blank"
+            rel="noopener noreferrer" href="https://docs.google.com/document/d/1WYzKIIkl-Go5vbRsYPgXUMpS8fWHKOQzNGCV8wle89o/edit?tab=t.0" class="link">filmmaker contact form. </a></p>
         </div>
 
   </b-col>
@@ -149,6 +171,16 @@ const filmmaker = ref<HTMLElement | null>(null);
 
 .program-color {
   background: #ECC2A1
+}
+
+a {
+  color: black;
+  text-decoration: none; /* Remove underline if not needed */
+}
+
+a:hover {
+  color: black; /* Ensure it remains black on hover */
+  text-decoration: underline; /* Optionally, add an underline on hover */
 }
 
 

@@ -7,7 +7,7 @@ const agenda = [
     "image": new URL('../assets/sun1.png', import.meta.url).href,
     "title": "PIXELS GONE WILD",
     "time": "13:00",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
     <p>
     Do you remember your first crush? Was it on a cartoon character? Mine was Chel from The Road to El Dorado. 
@@ -26,7 +26,9 @@ const agenda = [
      <br/>
     <strong>SOLITARY SEX & DISCOUNTS</strong> | The Annoying kids: Lokin and Yola | 2024 | Netherlands | 1’ 
      <br/>
-    <strong>First 1000 Times</strong> | Guby Moon | 2024 | Spain | 2’  La Petite Mort | Julian Bell | 2017 | The UK | 1’
+    <strong>First 1000 Times</strong> | Guby Moon | 2024 | Spain | 2’ La Petite Mort | Julian Bell | 2017 | The UK | 1’
+     <br/>
+    <strong>La Petite Mort</strong> | Julian Bell | 2017 | The UK | 1’
      <br/>
     <strong>Granny's Sexual Life</strong> | Urska Djukic, Emilie Pigeard | 2021 | Slovenia | 14’ 
      <br/>
@@ -59,22 +61,30 @@ const agenda = [
     "place": "Filmhuis CAVIA",
     "text": `
     <p>
-    Between 1960 and 1972 Britain was a major production hub for rollers - short black and white hardcore 8mm films. Although the sale of hardcore was strictly forbidden in Britain, this did not stop shrewd producers who used semi-professional filmmaking equipment to produce their films. Enabled by corrupt members of London’s Metropolitan Police, they sold their products through Soho’s bookshops and mail-order, and smuggled them into Denmark, Germany and the Netherlands. Professor Oliver Carter presents the discoveries from his latest book Under the Counter: Britain’s Illicit Trade in 8mm Pornographic Films, and will screen a selection of rarely seen 8mm rollers on film to tell the story of this forgotten part of porn history.
+    If The Garden of Earthly Delights was repainted today, what games would we play in the high grass? Which creatures would be lurking behind the trees? And what are the many potentials of a pitchfork?
     </p>
+    <p>
+    A garden is a dream, the fantasy of a submissive nature. One we can indulge in without being devoured alive. Behind hedges and fences we safely enjoy the sun on our skins, the humming of bees, the smell of warm soil, and mangoes growing big and juicy. But nature loves to lash back at us. Every dom knows their role should be a caring one, but when society's problems creep into our gardens like weeds, perhaps it’s time to reverse the roles, get on our knees and kiss a rock or two.
+    </p<
     `,
     "description": `<p>
-      <strong>Talk</strong> | prof. Oliver Carter | 30’ 
-      <strong>Screening</strong> | four 8mm films | 60’
+      <strong>Pandemic Excercises</strong> | Rafał Żwirek & Aga Szreder | 2020 | Poland | 8’ 
       <br/>
+      <strong>Hoe’s Radish. A desert’s forest tale</strong> | Gay Bar Production | 2024 | Poland | 18’
       <br/>
-      <strong>BIO</strong>
-            <br/>
-      Oliver Carter is a Professor of Creative Economies at Birmingham City University, UK. His research explores hidden screen economies
+      <strong>Fruity Warming</strong> | Said Isaac | 2024 | Panama | 1’ 
       <br/>
-            <br/>
-      Films curated by Oliver Carter from the <u>Under the Counter archive</u>, in collaboration with the Erotic Film Society.
+      <strong>The Tools of the Master</strong> | Ann Antidote | 2024 | Germany / Poland | 8’ 
+      <br/>
+      <strong>EstrellarSe</strong> | Amadalia Liberté | 2022 | Chile | 13’
+      <br/>
+      <strong>Kissing a Rock</strong> | Mariia Lemperk | 2023 | Germany | 4’
+      <br/>
+      <strong>Phytophilia</strong> | Friedrich Kreuz | 2014 | Australia | 18’ 
+
+
     </p>`,
-    "duration": "90 min",
+    "duration": "70 min + Q&A",
     "imagelogo": new URL('../assets/CAVIA.png', import.meta.url).href,
     "ticket": "https://amsterdamalternative.nl/tickets/17630"
   },
@@ -83,7 +93,7 @@ const agenda = [
     "image": new URL('../assets/sun3.png', import.meta.url).href,
     "title": "CALL THE PLUMBER",
     "time": "15:30",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
     <p>
     Think of the most stereotypical porn and chances are a tired trope will spring to mind. But what if we queer it up? The hot hitchhiker, the stranger at the door, the sweaty gardener and, of course, the plumber. They all come along in this selection, sometimes parodying but mostly elevating the traditional roles in porn. Because, let’s be honest, it’s not easy to invent ground-breaking plots when it comes down to explicit scenes, so why not spice up the classics? These steamy flicks reignite the thrill of the unexpected encounter.
@@ -114,17 +124,21 @@ const agenda = [
     </p>
     `,
     "description": `<p>
-    <strong>Cute as Fuck</strong> | Marcoestuvoaquí | 2024 | Chile | 15’ 
+    <strong>Cute as Fuck</strong> | Marcoestuvoaquí | 2024 | Chile | 15’ 
     <br/>
     <strong>Confess!</strong> | Mahx Capacity | 2024 | United States | 12’
     <br/>
     <strong>Palabras</strong> | Luisa González | 2008 | Colombia | 4’
     <br/>
-    <strong>Goodbye Stranger</strong> | Michelle Rue | 2023 | Germany | 8’ 
+    <strong>Goodbye Stranger</strong> | Michelle Rue | 2023 | Germany | 8’ 
     <br/>
-    <strong>Anonymous Confession</strong>| Sakura Ardila Ortiz | 2024 | Colombia | 10’ 
+    <strong>Anonymous Confession</strong> | Juliette Puch | 2024 | Argentina, Chile | 7’ 
     <br/>
-    <strong>Again</strong> | Morena Barra | 2023 | Switzerland | 6’ 
+    <strong>I'm not mothering sick motherfuckers</strong> | Pussy Willow | 2023 | Poland | 1’ 
+    <br/>
+    <strong>Friend Zone</strong> | Sakura Ardila Ortiz | 2024 | Colombia | 10’ 
+    <br/>
+    <strong>Again</strong> | Morena Barra | 2023 | Switzerland | 6’ 
     </p>`,
     "duration": "64 min + Q&A",
     "imagelogo": new URL('../assets/CAVIA.png', import.meta.url).href,
@@ -135,7 +149,7 @@ const agenda = [
     "image": new URL('../assets/sun5.png', import.meta.url).href,
     "title": "NO MONEY, NO HONEY",
     "time": "17:30",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
     <p>
     Sex work is complex, often influenced by various social and legal factors. It encompasses a range of clients, providers and activities. In many countries it is a subject of legal debate, with laws impacting the rights and safety of sex workers. 
@@ -149,9 +163,11 @@ const agenda = [
        <br/>
       <strong>Courage for (un-disabled) lust - A journey to self-worth through pleasure</strong> | Ben Nordmann | 2024 | Germany | 23’
        <br/>
-      <strong>Safe Area in Turkey</strong> | Lcd Nina | Turkey | 15’ 
+      <strong>No Man Like Me</strong> | Jaq Quicksilver | 2022 | United States | 4’
        <br/>
-      <strong>No Democracy Here</strong> | Liad Hussein Kantorowicz | 2018 | 25’ 
+      <strong>Safe Area in Turkey</strong> | Lcd Nina | 2022 | Turkey | 15’
+       <br/>
+      <strong>No Democracy Here</strong> | Liad Hussein Kantorowicz | 2018 | Germany | 25’
        <br/>
       <strong>I Really Want To Get Fucked</strong> | Robin Astera | 2024 | Germany | 6’ 
     </p>`,
@@ -187,16 +203,17 @@ const agenda = [
     "id": 7,
     "image": new URL('../assets/sun7.png', import.meta.url).href,
     "title": "HOT CUMMY ROSE",
-    "time": "19:45",
-    "place": "DE RICHEL",
+    "time": "19:40",
+    "place": "Theater de Richel",
     "text": `
     <p>
     We aren’t just here to consume, but also to collaborate. By negotiating boundaries and placing trust in the audience, spectators will paint the living canvas fulfilling the artist’s fantasy of becoming a wet, cummy rose. Roses, nudity, trust and respect form the basis of this interactive, steamy experience
     </p>
     `,
     "description": `<p>
-      <strong></strong>
+      <strong>Karina Villafan</strong> is a choreographer, performance artist, and cultural worker from Rio de Janeiro, Brasil, based in Amsterdam since 2017 and working internationally. Karina's work delves into the intersections of power, entertainment, storytelling, and the erotic, inviting audiences to engage with the complexities of identity, desire, and social dynamics.
       <br/>
+      She holds a BA in choreography from the School for New Dance Development (SNDO), where she currently serves as the social media manager. Karina also directs and produces the Pretty Poison Cabaret, a queer migrant cabaret that originates from the cosmos, based in Amstertrans. Her work is anchored in an interdisciplinary, feminist, queer, and anti-capitalist perspective, reflecting her identity as an artist navigating the in-betweens spaces of culture and geography.
     </p>`,
     "imagelogo": new URL('../assets/richel.png', import.meta.url).href,
   },
@@ -205,7 +222,7 @@ const agenda = [
     "image": new URL('../assets/sun8.png', import.meta.url).href,
     "title": "KINKYSTRAAT",
     "time": "20:00",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
     <p>
     Power dynamics are woven through the tapestry of our daily lives, yet we often have little awareness of the forces at play. It can be difficult to express our desires due to societal restrictions placed around unconventional appetites. Kink and BDSM practices seek to oust the fears surrounding these yearnings. Consent is the foundation for these interactions, ensuring safe exploration of limits while highlighting the significance and sexiness of open communication. These films seek to enhance understanding of the sometimes complex narratives of kink, challenging conventional views of relationships. By using dominance, pain, submission, control and service as a way to achieve balance, we push ourselves and each other to the outermost physical limits as a way to explore our innermost personal depths.
@@ -229,7 +246,7 @@ const agenda = [
       <strong>Il Teatro del Supplizio</strong> | Amerigo Brini | 2024 | Italy | 9’
 
     </p>`,
-    "duration": "84 min",
+    "duration": "84 min + Q&A",
     "imagelogo": new URL('../assets/richel.png', import.meta.url).href,
     "ticket": "https://amsterdamalternative.nl/tickets/17635"
   },
@@ -260,7 +277,7 @@ const agenda = [
     <br/>
     <strong>Fluidité / Genderfluid</strong> | La Fille Renne, Elisa Monteil & Laure Giappiconi | 2021 | France | 7’ 
     <br/>
-    <strong>I really want to get fucked | Robin Astera | 2024 | Germany | 6’
+    <strong>I really want to get fucked</strong> | Robin Astera | 2024 | Germany | 6’
     <br/>
     <strong>CripPleasurePower</strong> | ari sinn | 2024 | The Netherlands & Italy | 10’
     <br/>

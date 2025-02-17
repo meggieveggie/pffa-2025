@@ -73,7 +73,14 @@ const router = createRouter({
       component: InfoView
     }
     
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition; // Restore scroll position (e.g., back/forward navigation)
+    } else {
+      return { top: 0 }; // Scroll to the top for new navigations
+    }
+  },
 }) as CustomRouter;
 
 router.isActive = (path: string) => {

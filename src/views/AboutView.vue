@@ -21,7 +21,7 @@ const principles = [
   {
     title: 'Community',
     description:
-      'We live in a city which, while calling itself tolerant, makes it increasingly hard for many to stay. We believe in the potential of real-life encounters to challenge and reconquer the public space.'
+      'We live in a city which, while calling itself tolerant, makes it increasingly hard for many to feel welcome. We believe in the potential of real-life encounters to challenge and reconquer the public space.'
   }
 ];
 
@@ -94,7 +94,7 @@ const teamMembers = [
       </div>
 
       <p class="text">
-        Moreover, the 2025 edition of the festival recognises the nature of the new Dutch government as it stands openly against plurality in all its forms and raises taxes on cultural events, theaters, books, newspapers, thereby making them less accessible.
+        Moreover, the 2025 edition of the festival recognises the nature of the new Dutch government as it stands openly against plurality in all its forms. Porn Film Festival Amsterdam stands as a beacon of resistance against these tendencies, offering a platform for artistic and sexual exploration.
       </p>
 
       <p class="text">
@@ -123,10 +123,10 @@ const teamMembers = [
         <div class="titles1 mb-4">Who are we and how did we get here?</div>
         <b-row>
           <p class="text">
-            We are a group of debauchees, cinephiles, activists, filmmakers, media scholars, and sex worker(s). Most of us met some years ago at Filmhuis Cavia in Amsterdam, a community-run cinema funded by the squatters movement of the 80s. There, we started to dream about doing a porn film festival. We would sometimes host screenings, which were very successful and enriching for our community. These screenings are now called Kissable Screens. 
+            We are a group of debauchees, cinephiles, activists, filmmakers, media scholars, and sex worker(s). Most of us met some years ago at Filmhuis Cavia in Amsterdam, a community-run cinema founded by the squatters movement of the 80s. 
           </p>
           <p class="text">
-            Finally, in 2024, our festival came to life with the tremendous support of the local and global porn community, as well as the trust of local funds and cultural grassroots venues Two new people joined the gang, helping us greatly with our digital outreach and co-ordinating the lovely team of volunteers who make this festival possible.
+            Finally, in 2024, our festival came to life with the tremendous support of the local and global porn community, as well as the trust of local funds and cultural grassroots venues. Two new people joined the gang, helping us greatly with our digital outreach and co-ordinating the lovely team of volunteers who make this festival possible.
           </p>
         </b-row>
       </div>
@@ -168,9 +168,6 @@ const teamMembers = [
 }
 
 @media (max-width: 576px) {
-  .titles {
-    font-size: 1.5em;
-  }
 
   .block {
     font-size: 1.1em;

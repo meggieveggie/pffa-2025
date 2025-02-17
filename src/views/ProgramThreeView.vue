@@ -5,7 +5,7 @@ const agenda = [
   {
     "id": 1,
     "image": new URL('../assets/friday1.png', import.meta.url).href,
-    "title": "SEXPERIMENTAL FILM / guest curator",
+    "title": "SEXPERIMENTAL FILM",
     "time": "12:00",
     "place": "Filmhuis CAVIA",
     "text": `Film is a striptease – now you see it, now you don’t – film is about voyeurism and the desire to see more, to see what shouldn’t be seen. This selection of experimental 16mm and 35mm movies all work with different techniques and approaches in an effort to question the medium and to explore the textures and rhythms of the film material. Nudity and pornography have been a mainstream of the medium since its beginnings, as well as its censorship. Showing pornography on older film formats recalls the medium's underground origins, in which experimentation flourishes outside of commercial constraints. Such screenings become acts of cultural archaeology, connecting audiences to the medium’s layered histories while fostering critical discourse on representation, agency, and the politics of desire. `,
@@ -27,7 +27,7 @@ const agenda = [
       <strong>The Exquisite Corpus</strong> | Peter Tscherkassky | 2015 | Austria | 19’ | 35mm 
       <br/>
       <br/>
-      Programed by Pip Chodorov re-voir.com/pip
+      <p>Programmed by Pip Chodorov <a href="https://re-voir.com/pip" target="_blank" rel="noopener noreferrer">re-voir.com/pip</a></p>
     </p>`,
     "duration": "78 min",
     "imagelogo": new URL('../assets/CAVIA.png', import.meta.url).href,
@@ -87,7 +87,7 @@ I’m sorry everyone, *blows nose loudly* I'm trying to be professional and intr
       <br/>
       <strong>Human cocktail</strong> | Jade Escrivá & Anna/Jill Portmann | 2024 | Switzerland | 17’ 
       <br/>
-      <strong>Sip of gold</strong> | Director Kapture (Ross), co-director Kaadesh | 2024 | Germany | 3’
+      <strong>Sip of gold</strong> | Kapture and Kaadesh | 2024 | Germany | 3’
       <br/>
       <strong>Oda a la alegría</strong> | Lola Pistola | 2024 | Catalonia/Spain | 3’ 
       <br/>
@@ -103,8 +103,15 @@ I’m sorry everyone, *blows nose loudly* I'm trying to be professional and intr
     "title": "CRIPPING PLEASURE",
     "time": "18:30",
     "place": "tilla tec",
-    "text": `Who imposes sex and its culture on which body? How many gendered, aged, racialised and disabled bodies are excluded from heteronormative love as the sole and default expression of intimacy? Listening to the beautiful words of Sami Schalk, “we would all benefit from an approach that takes each other's body, each sexual interaction, as new, figuring out what is best with this person in this moment, given how their body feels and what's on their mind.”
-Cripping Pleasure invites us to experience crip time in cinema. Can we, through film, reimagine our notions of what can and should happen in time? Can we change the expectations we’ve learned to take for granted with our own bodies?`,
+    "text": `
+    Who imposes sex and its culture on which body? How many gendered, aged, racialised and disabled bodies are excluded from heteronormative love as the sole and default expression of intimacy? Listening to the beautiful words of Sami Schalk, author of Black Disability Politics, “we would all benefit from an approach that takes each other's body, each sexual interaction, as new, figuring out what is best with this person in this moment, given how their body feels and what's on their mind.”
+    <p>
+    Cripping Pleasure invites us to experience crip time in cinema. Can we, through film, reimagine our notions of what can and should happen in time? Can we change the expectations we’ve learned to take for granted with our own bodies? 
+    </p>
+    <p>
+    The screening will be followed by a talk with Karin, sex care worker and member of Prostitution Information Center.
+    </p>
+    `,
     "description": `<p>
 
     <strong>CripPleasurePower</strong> | ari sinn | 2024 | Netherlands, Italy | 10’ 
@@ -206,7 +213,7 @@ Cripping Pleasure invites us to experience crip time in cinema. Can we, through 
     "image": new URL('../assets/friday8.png', import.meta.url).href,
     "title": "THE VISITOR",
     "time": "22:00",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
       A refugee arrives in London inside a suitcase, carried by the river’s current. An upper-class family hires the newcomer as a servant, unaware that their world will soon be turned upside down. The enigmatic employee (Bishop Black) seduces each member of the family, sowing jealousy and obsession. 
       <br/>
@@ -236,9 +243,8 @@ Cripping Pleasure invites us to experience crip time in cinema. Can we, through 
       Let your voice be heard! And enjoyed.
      `,
     "description": `<p>
-    <strong>BIO</strong>
     <br/>
-    Cocotte is an ass-obsessed performance artist. Along with their crew, "les salopes autogéréx," they've already made waves (and more) in Paris and Brussels. Now, Cocotte is heading solo to Amsterdam for the Porn Film Festival and is determined to make your ears wet.
+    <strong>Cocotte</strong> is an ass-obsessed performance artist. Along with their crew, "les salopes autogéréx," they've already made waves (and more) in Paris and Brussels. Now, Cocotte is heading solo to Amsterdam for the Porn Film Festival and is determined to make your ears wet.
     <br/>
     @cocotteisindaradio
     </p>`,
@@ -248,22 +254,21 @@ Cripping Pleasure invites us to experience crip time in cinema. Can we, through 
   {
     "id": 10,
     "image": new URL('../assets/friday10.png', import.meta.url).href,
-    "title": "DIRTY PHONE CALL  / workshop",
-    "time": "12:00 - 14:00",
+    "title": "CRUISING QUEERS: the art of the personal ad",
+    "time": "15:00 - 17:00",
     "place": "PIC",
     "text": `
-      Cruising queers comes in two parts. We kick off with a creative personal ad-crafting workshop on Friday at PIC. The second part is an intimate collective reading session during the film block CRUISING THE CITY (Saturday 8th, 15:00, Theater De Richel).
+      Cruising queers comes in two parts. We kick off with a creative personal ad-crafting workshop on Friday at PIC. The second part is an intimate collective reading session during the film block CRUISING THE CITY (Saturday 8th, 13:00, Theater de Richel).
       <br/>
       <br/>
       On Friday we invite participants to get creative with filth, scissors and stationery to craft their own smutty personal-ads on paper cards. Guided by Sára and Katinka and Eddie, we will read together, write together, share fantasies, markers and glue sticks. Each person can bring something that they want to use in their personal ad – a talisman that speaks to their sexuality or desire. The aim is to create a ‘cruising wall’; or message board that will display the finished cards on site at PFFA where visitors can read/respond to them.
        <br/>
       <br/>
-      Maximum participants: 12
+      <strong>Maximum participants</strong>: 12
      `,
     "description": `<p>
-    <strong>BIO</strong>
     <br/>
-    Sára Iványi, Katinka van Gorkum and Eddie Azulay are three queer writer~artists who became acquainted though a queer dating app. Our collaboration for this workshop stems from our shared interest in language, and how reading between the lines and expressing oneself and one’s fantasies freely to strangers can become an interpersonal site for desire and sexuality - a site for cruising.
+    <strong>Sára Iványi, Katinka van Gorkum and Eddie Azulay</strong> are three queer writer~artists who became acquainted though a queer dating app. Our collaboration for this workshop stems from our shared interest in language, and how reading between the lines and expressing oneself and one’s fantasies freely to strangers can become an interpersonal site for desire and sexuality - a site for cruising.
     </p>`,
     "imagelogo": new URL('../assets/PIC.png', import.meta.url).href,
     "ticket": "https://amsterdamalternative.nl/tickets/17589"

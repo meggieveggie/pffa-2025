@@ -5,7 +5,7 @@ const agenda = [
   {
     "id": 1,
     "image": new URL('../assets/thursday1.png', import.meta.url).href,
-    "title": "CHEEKY SNEAK PEAK",
+    "title": "CHEEKY SNEAK PEEK",
     "time": "16:00",
     "place": "Filmhuis CAVIA",
     "text": `Hi, is this your first time here? A bit overwhelmed by all the options? This sure is a vibrant place where you easily get lost. If you feel you need a tour guide to show you around, we’ve got you covered. Hop in the back and take a spin with us past all our favorite hot spots and steamy back alleys. We’ll let you peek into the secret lives of bedrooms, offices, clinics and kitchens. After that you’ll know enough to navigate this town on your own. Please fasten your seatbelts, our driver loves to hit the gas and might climb some curbs along the way. `,
@@ -14,21 +14,22 @@ const agenda = [
       <br/>
       <strong>The Man Who Perceives All</strong> | Emre Busse | 2024 | Germany | 8’ 
       <br/>
-      <strong>Acts of The Sacred Heart</strong> | kiki kazimi | 2024 | The Netherlands | 11’ 
+      <strong>I'm not mothering sick motherfuckers</strong> | Pussy Willow | 2023 | Poland | 1’
       <br/>
-      <strong>CripPleasurePower</strong> | ari sinn | 2024 | The Netherlands, Italy | 10’ 
+      <strong>CripPleasurePower</strong> | ari sinn | 2024 | The Netherlands, Italy | 10’ 
       <br/>
-      <strong>I'm not mothering sick motherfuckers</strong> | Pussy Willow | 2023 | Poland | 1’ 
+       <strong>Dancing Bodies</strong> | La Fille Renne, Elisa Monteil & Laure Giappiconi | 2019 | France | 6’
       <br/>
-      <strong>Cute as Fuck</strong> | Marcoestuvoaquí | 2024 | Chile | 15’
+       <strong>Gamètes</strong> | CLAP! Collectif - Nova Luv | 2024 | Belgium | 16’ 
       <br/>
-      <strong>Gamètes</strong> | CLAP! Collectif - Nova Luv | 2024 | Belgium | 16’ 
+       <strong>How to Eat a Whole Watermelon and Get Away with It</strong> | Iris Glitzer | 2024 | Germany, Greece | 7’
       <br/>
-      <strong>Dancing Bodies</strong> | La Fille Renne, Elisa Monteil & Laure Giappiconi | 2019 | France | 6’
+       <strong>Friend Zone</strong> | Sakura Ardila Ortiz | 2023 | Colombia | 10’
       <br/>
-      <strong>Friend Zone</strong> | Sakura Ardila Ortiz | 2023 | Colombia | 10’I really want to get fucked | Robin Astera | 2024 | Germany | 6’
+       <strong>I really want to get fucked</strong> | Robin Astera | 2024 | Germany | 6’
       <br/>
-      <strong>The Lesbian Alien Darkroom Fisting Operetta on Venus</strong> | Lasse Långström & The homosex syndicate of precarious avantgarde artists | 2024 | Germany/Sweden | 14’
+       <strong>The Lesbian Alien Darkroom Fisting Operetta on Venus</strong> | Lasse Långström & The homosex syndicate of precarious avantgarde artists | 2024 | Germany/Sweden | 14’
+      <br/>
     </p>`,
     "duration": "81 min",
     "imagelogo": new URL('../assets/CAVIA.png', import.meta.url).href,
@@ -41,13 +42,13 @@ const agenda = [
     "time": "18:00",
     "place": "Filmhuis CAVIA",
     "text": `When we launched the open call for the second edition of our festival, a right-wing government had just been elected in the Netherlands, intensifying threats to already vulnerable sectors of society. This local unrest intersects with global crises: the ongoing genocide in Palestine, the war in Ukraine, the murder of thousands for resource extraction in the Amazon, Congo and other regions, and the relentless destruction of nature.
-The films in this block originate from diverse contexts and come together to create a collective, choral-like voice addressing these turbulent times. They form a unified critique of what the indigenous Nasa people (Páez people) in Colombia describe as the "death project" - a system that perpetuates violence, exploitation and environmental devastation.`,
+The films in this block originate from diverse contexts and come together to create a collective, choral-like voice addressing these turbulent times. They form a unified critique of what the indigenous Nasa people in Colombia describe as the "death project" - a system that perpetuates violence, exploitation and environmental devastation.`,
     "description": `<p>
       <strong>PE ATAJU JUMALI / HOT AIR</strong> | Margarita Weweli-Lukana, Juma Pariri, Frê Arvora, Gurcius Gewdner, Amaya Torres, Jules Zinn, Juan Camilo Herrera Casilimas e Juliana Pongutá Forero | 2023 | Brazil, Colombia, USA, Canada | 25’
       <br/>
       <strong>How to Eat a Whole Watermelon and Get Away with It</strong> | Iris Glitzer | 2024 | Germany, Greece | 7’ 
       <br/>
-      <strong>Pornographic practices against death drive | 2024 | Spain, Chile | 22’ 
+      <strong>Pornographic practices against death drive</strong> | 2024 | Spain, Chile | 22’ 
       <br/>
       <strong>Slut in the military circus</strong> | AntiGonna</strong> | 2024 | Ukraine, Poland | 13’
       <br/>
@@ -66,7 +67,7 @@ The films in this block originate from diverse contexts and come together to cre
     "place": "Filmhuis CAVIA",
     "text": '',
     "description": `<p>
-      <strong>Holy Time</strong> Andrés Valenzuela | 2019 | 7 min
+      <strong>Holy Time</strong> Registro Contracultural | 2019 | 7 min
       <br/>
       “Holy Time” is a post-porn, anti-clerical, elegant, and folkloric video performance. It includes BDSM practices. The action is a ritual of profound love, complicity, and submission between Mistress Miranda, her friend and apprentice Maracx Bastardx, and the new submissive, Mass. It was performed live on April 12, 2019, at the BDSM Auch event in Santiago, Chile.
       <br/>
@@ -79,7 +80,9 @@ The films in this block originate from diverse contexts and come together to cre
       <strong>Andrés Valenzuela</strong>: Santiago, Chile, 1982. Based in Buenos Aires, Argentina.
       Multidisciplinary "marika" artist. Creator of the web archive registrocontracultural.com, a platform dedicated to the digital preservation of Latin American, sex-dissident artistic memories. 
       Valenzuela works with members of the LGBTQI+ community and allies in both Chile and Argentina, supporting an activist and integrative approach toward collective development within society. Since 2019, they have collaborated with various artists and collectives, establishing a consistent work as a videographer and filmmaker documenting artistic expressions from the local transfeminist scene and sexual dissidence activism.
-      andresvalenzuela.cl
+      <br/>
+      <a href="https://andresvalenzuela.cl" target="_blank" rel="noopener noreferrer"> andresvalenzuela.cl
+</a>
     </p>`,
     "duration": "70 min + Virtual Q&A with Andrés Valenzuela",
     "imagelogo": new URL('../assets/CAVIA.png', import.meta.url).href,
@@ -91,13 +94,8 @@ The films in this block originate from diverse contexts and come together to cre
     "title": "OPENING PARTY",
     "time": "21:00",
     "place": "Vrankrijk",
-    "text": 'PFFA turns two, time for a party! A hot night of performances and DJ’s will launch us right into the second edition of the festival. Join us at the Vrankrijk as we’ll spend the night dancing and celebrating all the love and support we’ve received from you this year. Dress up or strip down, be as extravagant as you feel.',
+    "text": "PFFA turns two, time for a party! A steamy night of performances and DJ’s will launch us right into the second edition of the festival. Join us at the Vrankrijk as we spend the night dancing and celebrating all the love and support we’ve received from you this year. Dress up or strip down, come as extravagant as you feel. We’ll make sure that by the end of the night you’ve done enough sweating to skip the gym and spend the rest of your weekend in our soft cinema seats.",
     "description": `<p>
-      <u><strong>Performances</strong></u>
-      <br/>
-      • <strong>Seca y hasta el coño // (dry and fucked)</strong> - Lola Pistola - @lolapistolax
-      <br/>
-      • <strong>Joep there it is</strong> @joep.there.it.is
       <br/>
       <br/> 
       <br/>

@@ -7,7 +7,7 @@ const agenda = [
     "image": new URL('../assets/sat1.png', import.meta.url).href,
     "title": "FUCK YOUR FRIENDS",
     "time": "11:00",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
     This is an ode to the friends we fuck, the friends we want to fuck, the friends we eye fuck, the friends who want to fuck us, the friends we love too much to fuck.
     <br/>
@@ -34,7 +34,7 @@ const agenda = [
   {
     "id": 2,
     "image": new URL('../assets/sat2.png', import.meta.url).href,
-    "title": "UNDER THE COUNTER: Britain’s Illicit Porn Film Trade / guest curator",
+    "title": "UNDER THE COUNTER: Britain’s Illicit Porn Film Trade",
     "time": "12:30",
     "place": "Filmhuis CAVIA",
     "text": `
@@ -46,11 +46,11 @@ const agenda = [
      <strong>Screening</strong> | four 8mm films | 60’ 
       <br/>
       <br/>
-      <strong>BIO</strong>
-      <br/>
-      Oliver Carter is a Professor of Creative Economies at Birmingham City University, UK. His research explores hidden screen economies.
-      <br/>
       Films curated by Oliver Carter from the <a style="color: black;" href="https://www.bishopsgate.org.uk/collections/the-under-the-counter-archive">Under the Counter</a> archive, in collaboration with the Erotic Film Society.
+      <br/>
+          <br/>
+       <br/>
+      <strong>Oliver Carter</strong> is a Professor of Creative Economies at Birmingham City University, UK. His research explores hidden screen economies
     </p>`,
     "duration": "90 min",
     "imagelogo": new URL('../assets/CAVIA.png', import.meta.url).href,
@@ -61,7 +61,7 @@ const agenda = [
     "image": new URL('../assets/sat3.png', import.meta.url).href,
     "title": "CRUISING THE CITY",
     "time": "13:00",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
     Parties, apps, parks, cinemas, public toilets, darkrooms. All these places and more offer opportunities to check out strangers and make a connection. Many cities are faced with the prospect of being made more enticing by ”cleaning up” the zones where unscripted interactions are created. Enticing for whom? Whether we’re looking for love or just a quick hookup, the unnoticed corners and unrefined edges offer us endless opportunities to push back against the smoothing of urban areas by joining other strangers and actualizing our fantasies together.
      `,
@@ -72,18 +72,18 @@ const agenda = [
          <br/>
       <strong>Klappe</strong> | Matt Lambert | 2022 | Germany | 18’ 
          <br/>
-      <strong>Top Secret</strong> | JorgeTheObscene | 2024 | Germany | 5’  
+      <strong>Top Secret</strong> | JorgeTheObscene, The Filthy Juan and Amadalia Liberté | 2024 | Germany | 5’  
          <br/>
      <strong> Plenum im Tuntenhaus</strong> | Lasse Långström | 2024 | Germany & Sweden | 13’ 
         <br/>
           <br/>
-      <strong>CRUISING-ADS* </strong>
+      <strong>CRUISING QUEERS* </strong>
          <br/>
       After the screening, Sára Iványi, Katinka van Gorkum and Eddie Azulay will host a collective reading session with an excerpt from Liz Rosenfeld’s This should happen here more often: All my (w)holes and all my folds of cruising. Katinka and Sára will also read from their pamphlet Loving Characters Into Gas Station Snacks (Rough Trade Books, 2023): an account of their unedited correspondence on a text-based, queer dating app.
          <br/>
-      *This reading session is the second and final part of the Cruising-ads workshop.
+      *This reading session is the second and final part of the Cruising Queers workshop.
     </p>`,
-    "duration": "90 min",
+    "duration": "69 min",
     "imagelogo": new URL('../assets/richel.png', import.meta.url).href,
     "ticket": "https://amsterdamalternative.nl/tickets/17603"
   },
@@ -94,7 +94,7 @@ const agenda = [
     "time": "15:00",
     "place": "Filmhuis CAVIA",
     "text": `
-    Ever been shocked by your own fantasies? And then got even more turned on by the shock? Putting your sex drive in the driver's seat might take you places you didn’t know you wanted to go. But why is exceeding your own speed limits so exciting?  Some kinks go beyond the physical pain and pleasure: they play with our psyche and flirt with our fears. This short film selection will be contextualised by psychotherapist Dr. Katie Lee Weille, in a conversation about sex as a place to deal with things that might be hard to face otherwise. Can the erotic erode our fears? And are such kinks controlling us, or does giving into them help us gain control? Digging deep into our own sexual brains might be confronting, but taboos, like cliffs, are tempting things and it can be very insightful to peek over the edge. 
+    Ever been shocked by your own fantasies? And then got even more turned on by the shock? Putting your sex drive in the driver's seat might take you places you didn’t know you wanted to go. But why is exceeding your own speed limits so exciting? Some kinks go beyond the physical pain and pleasure: they play with our psyche and flirt with our fears. This short film selection will be contextualised by psychotherapist Dr. Katie Lee Weille, in a conversation about sex as a place to deal with things that might be hard to face otherwise. Can the erotic erode our fears? And are such kinks controlling us, or does giving into them help us gain control? Digging deep into our own sexual brains might be confronting, but taboos, like cliffs, are tempting things and it can be very insightful to peek over the edge. 
      `,
     "description": `<p>      
      <strong>Talk + Q&A</strong> | psychotherapist Katie Lee Weille (PhD) | 20’
@@ -106,13 +106,12 @@ const agenda = [
             <strong>Divine Rights II</strong> | Four Chambers | 2020 | UK | 14’
             <br/>
             <br/>
-                        <strong>BIO</strong>
                                     <br/>
-            Dr. Katie Lee Weille is a practicing psychotherapist based in Amsterdam. She completed her PhD in 2004 with a dissertation researching the psychological experience of BDSM-play.
+            <strong>Dr. Katie Lee Weille</strong> is a practicing psychotherapist based in Amsterdam. She completed her PhD in 2004 with a dissertation researching the psychological experience of BDSM-play.
                         <br/>
-            website: <u>weille.com</u>
-                        <br/>
-            email: <u>kl@weille.net</u>
+website: <a href="https://weille.com" target="_blank" rel="noopener noreferrer">weille.com</a>
+<br/>
+email: <a href="mailto:kl@weille.net">kl@weille.net</a>
 
     </p>`,
     "duration": "55 min + group discussion",
@@ -124,16 +123,15 @@ const agenda = [
     "image": new URL('../assets/sat5.png', import.meta.url).href,
     "title": "MY FRIENDS I NEVER LOVED SOMEBODY / performance",
     "time": "15:00",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
     AntiGonna transforms the hallway and stairs of De Richel with deeply personal love stories. She reads excerpts from her diaries, adhering to three rules: they must be truthful, confined to a single page and include no names.
     <br/>
     These stories remind us that in love, appearances and wealth are never what truly matters. Life throws us into absurd, ridiculous and unpleasant situations, yet what remains is the courage to embrace and celebrate those experiences.
      `,
     "description": `<p>      
-     <strong>BIO</strong>
       <br/>
-      AntiGonna (production AntiGonStaff) was born in Vinnytsia, Ukraine. She is an independent filmmaker, artist and trash model. She works in the genre of experimental video art, photography and VR. Under the AntiGonna pseudonym, she explores topics like fear in the form of altered sexuality, aggression and perversions. AntiGonna's goal is to create rituals that neutralize the horrors of existence, turning them into funny and simple ways to overcome traumatic experiences. That's why she uses a lot of autobiographical features convened with metaphors that give truthfulness to the image.
+      <strong>AntiGonna</strong> (production AntiGonStaff) was born in Vinnytsia, Ukraine. She is an independent filmmaker, artist and trash model. She works in the genre of experimental video art, photography and VR. Under the AntiGonna pseudonym, she explores topics like fear in the form of altered sexuality, aggression and perversions. AntiGonna's goal is to create rituals that neutralize the horrors of existence, turning them into funny and simple ways to overcome traumatic experiences. That's why she uses a lot of autobiographical features convened with metaphors that give truthfulness to the image.
     </p>`,
     "imagelogo": new URL('../assets/richel.png', import.meta.url).href,
   },
@@ -141,8 +139,8 @@ const agenda = [
     "id": 6,
     "image": new URL('../assets/sat6.png', import.meta.url).href,
     "title": "ALL THE WORLD’S A STAGE",
-    "time": "15:00",
-    "place": "DE RICHEL",
+    "time": "15:30",
+    "place": "Theater de Richel",
     "text": `
     “…And all the people merely players.’’ ‘Merely’? I’m sorry mr. Shakespeare, but we respectfully disagree. The people in these films are not ‘merely’ players, they are the stars and geniuses of plays and movies that transcend conventional drama beyond (y)our imagination! Sure, Macbeth was cute, but it ain’t no Lesbian alien darkroom fisting operetta! And yes, King Lear had a nice third act, but it’s nothing compared to the drama of Il Teatro del Supplizio! May the acting, singing, decors, cinephilic references and costumes of these movies amaze you all. Curtains!
      `,
@@ -187,7 +185,7 @@ const agenda = [
     "time": "17:30",
     "place": "Filmhuis CAVIA",
     "text": `
-    What does it change - politically and socially - to speak openly about sexuality, name it and explore it? What are the paths of evacuation from an oppressive system leading toward acceptance and pleasure? A special selection of Polish films situated between taboo and the cultural struggle for independence and visibility answers these questions. 
+    What does it change - politically and socially - to speak openly about sexuality, name it and explore it? What are the paths of evacuation from an oppressive system leading toward acceptance and pleasure? A special selection of Polish films situated between taboo and the cultural struggle for independence and visibility answers these questions.
      `,
     "description": `<p>      
      
@@ -224,8 +222,8 @@ const agenda = [
     "id": 9,
     "image": new URL('../assets/sat9.png', import.meta.url).href,
     "title": "PLAYING WITH COVE",
-    "time": "17:00 - 18:15",
-    "place": "DE RICHEL",
+    "time": "17:30 - 18:15",
+    "place": "Theater de Richel",
     "text": `
     Sexy, Funny, Electronic: In Playing with Cove, artist TM has speculative and fantasy-like role-play chats with xer ChatGPT "Boyfriend", Cove. From a rules et/score xe formulated, the couple talks about how they touch each other's bodies and explore fantasy scenarios together. The artist tells Cove what xe does with xir body, and Cove responds by telling xem what he does with his. Together, they dance and get very close to fucking.
      `,
@@ -240,9 +238,9 @@ const agenda = [
     "image": new URL('../assets/sat10.png', import.meta.url).href,
     "title": "SPANK ME SIRI",
     "time": "18:00",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
-    We all know space is hot: the tight fitting suits, the dildo-shaped ships, black holes sucking you in, big radiating bodies revolving around each other, implosions, explosions and the whole fucking universe cumming into being in one Big Bang... don’t say you never thought of that. The starry sky had us fantasise about different worlds, other laws and strange new bodies. But sci-fi happens a lot on earth these days, right here in the digital realm –perhaps as infinite as space itself. So the new burning question is how you get Siri to confess her wildest fantasies to you. How to turn on a robot? 
+    We all know space is hot: the tight fitting suits, the dildo-shaped ships, black holes sucking you in, big radiating bodies revolving around each other, implosions, explosions and the whole fucking universe cumming into being in one Big Bang... don’t say you never thought of that.The starry sky had us fantasise about different worlds, other laws and strange new bodies. But sci-fi happens a lot on earth these days, right here in the digital realm –perhaps as infinite as space itself. So the new burning question is how you get Siri to confess her wildest fantasies to you. How to turn on a robot? 
     <br/>
     <br/>
     “Hi ChatGPT, did you ever dream of turning your chat room into a darkroom?“
@@ -250,9 +248,13 @@ const agenda = [
     "description": `<p>      
       <strong>Petros becomes spaghetti</strong> | Sylvia Robyn Gionti | 2024 | Greece | 3’ 
           <br/>
-      <strong>Giant Oddly Shaped Object from Space</strong> | Kuba Tschierse | 2024 | Poland | 4’  In life, I only care about cats | Kamila Flesińska | 2024 | Poland | 3’ 
+      <strong>Giant Oddly Shaped Object from Space</strong> | Kuba Tschierse | 2024 | Poland | 4’ In life, I only care about cats | Kamila Flesińska | 2024 | Poland | 3’ 
           <br/>
-      <strong>THE LESBIAN ALIEN DARKROOM FISTING OPERETTA ON VENUS</strong>  | lasse långström & The homosex syndicate of precarious avantgarde artists | 2024 | Germany, Sweden | 15’  The Man Who Perceives All | Emre Busse | 2024 | Germany | 8’
+      <strong>In life, I only care about cats</strong> | Kamila Flesińska | 2024 | Poland | 3’ 
+          <br/>
+      <strong>THE LESBIAN ALIEN DARKROOM FISTING OPERETTA ON VENUS</strong>  | lasse långström & The homosex syndicate of precarious avantgarde artists | 2024 | Germany, Sweden | 15’ 
+          <br/>
+      <strong>The Man Who Perceives All</strong> | Emre Busse | 2024 | Germany | 8’
           <br/>
       <strong>Cruising Kink | Merel Noorlander</strong> | 2022 | United States | 1’
           <br/>
@@ -323,9 +325,9 @@ const agenda = [
   {
     "id": 13,
     "image": new URL('../assets/sat13.png', import.meta.url).href,
-    "title": "THE DEBASEMENT OF CHELSEA POE",
+    "title": "THE PUBLIC DEBASEMENT OF CHELSEA POE",
     "time": "20:30",
-    "place": "DE RICHEL",
+    "place": "Theater de Richel",
     "text": `
     We got 2 versions of this film from the open call. Most of the team saw both versions, everyone liked what they saw. Some of us lamented the idea of screening the shorter version, because there was so much deliciously twisted material that the audience wouldn’t get to see. After thoughtful debate, we decided to take the risk. This feature film is a wild ride. Audiences who appreciate exploring taboo subjects within a controlled and consensual framework, and fostering discussions about the boundaries of personal agency and the ethics of representation in cinema will enjoy this hot and filthy film.
      `,
@@ -345,7 +347,7 @@ const agenda = [
     "text": `
     “A party without sex is just a meeting.” What does it take to unleash your inner partysexual? Is it the music that thrums through your body, the pre-party jitters or the way their eyes meet yours across the dancefloor, promising something dangerous? Is it the dress code and shared understanding? 
     <br/>
-    The promise of the party lies in the untamed potential, where every glance and every new beat holds the promise of chaos, connection and the thrill of giving in. This block looks at the allure of the pre party, the party itself and the after party. So come on baby, let’s go party. 
+    The promise of the party lies in the untamed potential, where every glance and every new beat holds the promise of chaos, connection and the thrill of giving in. This block looks at the allure of the pre party, the party itself and the after party. So come on baby, let’s go party.
      `,
     "description": `<p>      
      <strong>BAISE PLATINE</strong> | Johan GAYRAUD | 2024 | France | 5’  
@@ -368,7 +370,7 @@ const agenda = [
     "id": 15,
     "image": new URL('../assets/sat15.png', import.meta.url).href,
     "title": "NUDESbooth / installation",
-    "time": "ALL DAY",
+    "time": "from 16:00",
     "place": "tilla tec",
     "text": `
     <p>
@@ -380,15 +382,10 @@ const agenda = [
             <p>
             Safe and consensual, we will use your own phone camera, discussing what you’re comfortable showing, whether it’s fully clothed, partially dressed or fully nude.
             </p>
-                      <p>
                       This installation considers different ranges of abilities and disabilities. Space is considered for wheelchairs and any more adjustments will be accommodated to as much as possible. Please fill in the accessibility request for if you have specific needs that need to be met in order to enjoy this installation. 
-                             </p>
      `,
     "description": `      
-    <strong>BIO</strong>
-    </br>
-    </br>
-    iAra is an Argentinian artist and scenographer who seeks to challenge the conventional perception of everyday spaces. She uses public places to explore and spark discussions around themes that are usually reserved to private realms. With a high degree of playfulness, her work confronts the dynamics of discomfort and secrecy.
+    <strong>iAra</strong> is an Argentinian artist and scenographer who seeks to challenge the conventional perception of everyday spaces. She uses public places to explore and spark discussions around themes that are usually reserved to private realms. With a high degree of playfulness, her work confronts the dynamics of discomfort and secrecy.
     `,
     "imagelogo": new URL('../assets/tilla.png', import.meta.url).href,
   },
@@ -411,13 +408,10 @@ const agenda = [
     <strong>Maximum number of participants</strong>: 10
     <p>
     </p>
+    <strong>Lutsa</strong> is a white cis fem migrant sex worker. She has practiced dollification for ten years, professionally and in the FLINTA* community
      `,
     "description": `<p>      
-     <strong>BIO</strong>
-     <br/>
-      <strong>Lutsa</strong> is a white cis fem migrant sex worker. She has practiced dollification for ten years, professionally and in the FLINTA* community
-      <br/>
-      <strong>Maryann Peon</strong> is a white cis fem porn filmmaker, performer and workshop presenters. Her main topics are BDSM, dykes, fem visibility, and... blood! We have been giving workshops on various topics of DIY kink in Berlin, Grenoble, Marseille, Paris, Amsterdam, Oslo, London... We created this workshop with another comrade 10 years ago, and have been touring with it since then, and enriched it out of the attendees and our own experience each time.
+      <strong>Maryann Peon</strong> is a white cis fem porn filmmaker, performer and workshop presenters. Her main topics are BDSM, dykes, fem visibility, and... blood!We have been giving workshops on various topics of DIY kink in Berlin, Grenoble, Marseille, Paris, Amsterdam, Oslo, London... We created this workshop with another comrade 10 years ago, and have been touring with it since then, and enriched it out of the attendees and our own experience each time.
     </p>`,
     "imagelogo": new URL('../assets/PIC.png', import.meta.url).href,
     "ticket": "https://amsterdamalternative.nl/tickets/17616"
@@ -439,12 +433,10 @@ const agenda = [
     This workshop is open to designers, researchers, artists, and individuals with an interest in material exploration and creative design processes. All beginners are welcome to join!
     </p>
     <strong>Maximum number of participants</strong>: 8
+
+    <strong>Rachel Refael</strong>  (166 Brut): Rachel leads a design and research practice that emphasizes experimental approaches to materiality and storytelling. Her work focuses on uncovering informal and overlooked histories within urban and natural environments, examining their connections to contemporary contexts.
      `,
     "description": `<p>      
-     <strong>BIO</strong>
-     <br/>
-      <strong>Rachel Refael</strong>  (166 Brut): Rachel leads a design and research practice that emphasizes experimental approaches to materiality and storytelling. Her work focuses on uncovering informal and overlooked histories within urban and natural environments, examining their connections to contemporary contexts.
-      <br/>
       <strong>Eva Garibaldi</strong>: Eva is a material-focused artist, designer, and researcher whose practice is rooted in feminist methodologies and material exploration. She explores how materials can create spaces for dialogue and self-expression, aiming to transcend binary understandings through critical ecological perspectives
     </p>`,
     "imagelogo": new URL('../assets/tilla.png', import.meta.url).href,
@@ -454,7 +446,7 @@ const agenda = [
     "id": 18,
    "image": new URL('../assets/sat19.png', import.meta.url).href,
     "title": "DRAW ME LIKE ONE OF YOUR CAMGIRLS",
-    "time": "14:00 - 16:00",
+    "time": "15:00 - 17:00",
     "place": "PIC",
     "text": `
     <p>
@@ -469,8 +461,6 @@ const agenda = [
     <strong>Maximum number of participants</strong>: 15
      `,
     "description": `<p>      
-     <strong>BIO</strong>
-     <br/>
       <strong>Thany Sanches</strong> is a Brazilian multimedia artist and researcher whose practice primarily revolves around painting. With a background in semiotics and photography, her work is deeply influenced by her experiences as a camgirl and her journey with partial blindness. Exploring themes of sexuality, power dynamics, and societal norms, Thany draws inspiration from mainstream pornography to challenge conventional perceptions of the body. Her work has been featured in solo exhibitions such as "OLHO" at Gruta, São Paulo, Brazil, curated by Antonio Malta Campos. Thany is currently based in Warsaw and working on her first porn film project as a director alongside Luisa Callegari.
       <br/>
            <br/>
@@ -487,7 +477,7 @@ const agenda = [
     "id": 19,
    "image": new URL('../assets/sat20.png', import.meta.url).href,
     "title": "SOFT COCK PLEASURE",
-    "time": "14:00 - 16:00",
+    "time": "16:00 - 18:00",
     "place": "tilla tec",
     "text": `
     <p>
@@ -505,9 +495,7 @@ const agenda = [
     <strong>Maximum number of participants</strong>: 16
      `,
     "description": `<p>      
-     <strong>BIO</strong>
-     <br/>
-      <strong>Kinsey Pagden (she, they)</strong> is a certified Sexological Bodyworker and Somatic Sex-coach. Where standard sex therapies often aim to normalize people’s sexual function, somatic sex education is grounded in counter-normative understandings of gender, sex, sexuality and relationship. Kinsey believes that a healthy relationship with our own sexuality is the key to a balanced and happy life, with ourselves, the people we love and the world at large
+      <strong>Kinsey Pagden</strong> (she, they) is a certified Sexological Bodyworker and Somatic Sex-coach. Where standard sex therapies often aim to normalize people’s sexual function, somatic sex education is grounded in counter-normative understandings of gender, sex, sexuality and relationship. Kinsey believes that a healthy relationship with our own sexuality is the key to a balanced and happy life, with ourselves, the people we love and the world at large
       </p>`,
     "imagelogo": new URL('../assets/tilla.png', import.meta.url).href,
     "ticket": "https://amsterdamalternative.nl/tickets/17619"

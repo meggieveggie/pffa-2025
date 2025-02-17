@@ -40,6 +40,15 @@ body {
   color: black;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: black; /* Ensure it remains black on hover */
+  text-decoration: underline; /* Optionally, add an underline on hover */
+}
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: var(--bs-nav-link-active);
 }

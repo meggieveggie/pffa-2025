@@ -22,8 +22,6 @@ const collapseNavbar = () => {
     </b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="nav nav-collapse ml-auto">
-        <b-nav-item class="nav-item-spacing"><router-link to="about_us" @click="collapseNavbar">About Us</router-link></b-nav-item>
-        <b-nav-item class="nav-item-spacing"><router-link to="info" @click="collapseNavbar">Extra info</router-link></b-nav-item>
         <b-nav-item-dropdown>
           <template #button-content>
       Program
@@ -35,6 +33,8 @@ const collapseNavbar = () => {
         <b-dropdown-item><router-link to="saturday" @click="collapseNavbar">Sat, 8 Feb</router-link></b-dropdown-item>
         <b-dropdown-item><router-link to="sunday" @click="collapseNavbar">Sun, 9 Feb</router-link></b-dropdown-item>
         </b-nav-item-dropdown>
+        <b-nav-item class="nav-item-spacing"><router-link to="about_us" @click="collapseNavbar">About Us</router-link></b-nav-item>
+        <b-nav-item class="nav-item-spacing"><router-link to="info" @click="collapseNavbar">Extra info</router-link></b-nav-item>
         <b-nav-item class="nav-item-spacing"><router-link to="sponsors" @click="collapseNavbar">Sponsors</router-link></b-nav-item>
         <b-nav-item class="nav-item-spacing"><a href="https://2024.pornfilmfestival.amsterdam" @click="collapseNavbar">2024 Edition</a></b-nav-item>
       </b-navbar-nav>

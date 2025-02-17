@@ -26,7 +26,8 @@ const props = defineProps(['image', 'title', 'time', 'place', 'description', 'du
 
         <!-- Button and Image Section -->
       <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
-        <a :href="props.ticket" style="text-decoration: none;">
+        <a :href="props.ticket"           target="_blank"
+        rel="noopener noreferrer" style="text-decoration: none;">
           <button v-if="props.ticket" style="background-color: #2C2C2C; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 8px;">
             Buy ticket
           </button>
